@@ -3,25 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+"scripts": {
+  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahriarRefat0/TravBo-Backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.6.1"
+  "bugs": {
+    "url": "https://github.com/ShahriarRefat0/TravBo-Backend/issues"
   },
-  "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.6.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^6.0.3"
-  }
+  "homepage": "https://github.com/ShahriarRefat0/TravBo-Backend#readme"
 }
