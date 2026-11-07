@@ -8,9 +8,9 @@
     "node-fetch": "^3.3.2"
   },
   "scripts": {
-    "dev": "node init && ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "node init && tsc",
-    "start": "node init && node dist/server.js"
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
